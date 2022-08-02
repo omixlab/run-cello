@@ -2,7 +2,6 @@ from Bio import SeqIO
 from io import StringIO
 from tqdm import tqdm
 from functools import partial
-import multiprocessing as mp
 import pandas as pd
 import requests
 import argparse
