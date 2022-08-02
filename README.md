@@ -11,5 +11,5 @@ $ pip install run-cello
 ## Usage
 
 ```
-$ run-cello -i proteins.fasta -o proteins.csv
+$ run-cello -i proteins.fasta -o proteins.csv -t gram-
 ```
