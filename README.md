@@ -16,7 +16,6 @@ $ run-cello -i tests/proteins.fasta -o tests/proteins.csv -t gram-
 
 ### Sample Output
 
-```
 |protein_id           |location     |
 |---------------------|-------------|
 |sp&#124;A5A616&#124;MGTS_ECOLI |Cytoplasmic  |
@@ -34,4 +33,4 @@ $ run-cello -i tests/proteins.fasta -o tests/proteins.csv -t gram-
 |sp&#124;P00490&#124;PHSM_ECOLI |Cytoplasmic  |
 |sp&#124;P00509&#124;AAT_ECOLI  |Cytoplasmic  |
 |sp&#124;P00550&#124;PTM3C_ECOLI|InnerMembrane|
-```
+
