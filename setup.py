@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="run-cello",
-    version='0.1.0',
+    version='0.1.5',
     packages=find_packages(),
     author="Frederico Schmitt Kremer",
     author_email="fred.s.kremer@gmail.com",
