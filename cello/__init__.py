@@ -15,7 +15,7 @@ TYPE_DICT = {
 }
 
 def main():
-    argument_parser = argparse.ArgumentParser(description='Predict the location of a proteins in a FASTA file.')
+    argument_parser = argparse.ArgumentParser(description='Find protein sub-cellular location in FASTA files using Cello.')
     argument_parser.add_argument('-i', '--input', help='The input FASTA file.', required=True)
     argument_parser.add_argument('-o', '--output', help='The output CSV file.', required=True)
     argument_parser.add_argument('-t', '--type', help='Organism type.', required=True, choices=['gram-', 'gram+', 'eukaryote'])
@@ -69,3 +69,4 @@ def iter_chunks(items, size):
 
 if __name__ == '__main__':
     main()
+

@@ -1,6 +1,6 @@
 # Run Cello
 
-Find protein locations in FASTA files using [Cello](http://cello.life.nctu.edu.tw/).
+Find protein sub-cellular location in FASTA files using [Cello](http://cello.life.nctu.edu.tw/).
 
 ## Installing
 
