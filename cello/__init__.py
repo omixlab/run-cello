@@ -52,7 +52,7 @@ def run_cello(record_chunk, organism_type):
     response                = requests.post(url, data=payload)
     result_url              = CELLO_BASE_URL+re.findall('temp/.+\.result_save\.txt', response.text)[0]
     result_df               = pd.read_csv(StringIO(requests.get(result_url).text), sep='\t')
-    result_df['protein_id'] = result_df['#SeqName'].map(lambda x: x.split(' ')[0])
+    result_df['protein_id'] = result_df['#SeqName'].map(lambda x: str(x).split(' ')[0])
     result_df['location']   = result_df['#Most-likely-Location']
     
     yield result_df[['protein_id', 'location']]
